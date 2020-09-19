@@ -4,7 +4,8 @@ new Vue({
         username: '',
         greeting: '',
         feelname: '',
-        feeling: ''
+        feeling: '',
+        gen: 0
     },
     methods: {
         greet: function() {
@@ -28,6 +29,11 @@ new Vue({
             this.feelname = ''
             this.feeling = ''
 
+        },
+        
+        gender: function(val) {
+
+            this.gen = val
         }
     }
 });
