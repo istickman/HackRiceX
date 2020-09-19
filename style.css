@@ -95,7 +95,7 @@ h1 {
     margin: -815px 0 0 -650px;
     width:630px;
     height:1720px;
-    padding: 30px 15px;
+    padding: 30px 10px;
     background-color: black;
   }
   .p11 {
@@ -104,7 +104,7 @@ h1 {
   margin:-315px 0 0 -650px;
   width:630px;
   height:720px;
-  padding: 30px 15px;
+  padding: 30px 10px;
   /* background-color: black; */
   /* border: 1px solid black; */
   text-align: center;
@@ -131,6 +131,7 @@ h1 {
   font-size:40px;
   float:left;
   margin:-200px 0 0 -550px;
+  text-align:center;
   }
   .p22 {
   font-size:40px;
