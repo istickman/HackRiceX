@@ -3,6 +3,7 @@ new Vue({
     data: {
         username: '',
         greeting: '',
+        feelname: '',
         feeling: ''
     },
     methods: {
@@ -11,12 +12,12 @@ new Vue({
             this.greeting = "Hi, "
             this.greeting = this.greeting.concat(this.username, "!")
             
-        }
+        },
 
         feels: function() {
 
             this.feeling = "So you are feeling "
-            this.feeling = this.feeling.concat(this.feeling, ".")
+            this.feeling = this.feeling.concat(this.feelname, ".")
 
         }
     }
