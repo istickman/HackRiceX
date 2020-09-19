@@ -87,27 +87,24 @@ font-size:0;
 background-color: #45CCFF;
 }
 .p1 {
-font-size:25px;
+font-size:16px;
 float:left;
-margin:-365px 0 0 -650px;
+margin:-100px 0 0 -650px;
 width:600px;
-height:820px;
+height:400px;
 padding: 5px 15px;
-background-color: black;
+border: 1px solid black;
 text-align: center;
 }
 
 .p2 {
 font-size:40px;
 float:left;
-margin:-225px 0 0 150px;
+margin:-100px 0 0 150px;
 }
 
 .two {
-background-image: url(https://www.zippia.com/wp-content/uploads/2019/05/states-with-the-highest-levels-of-income-inequality-for-2019.png);
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
+background-color: #49E83E;
 }
 
 .three {
@@ -127,7 +124,7 @@ background-color: blue;
 }
 
 #answers {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 /* Translating the content's X ruins the scrollbar length. */
@@ -153,13 +150,11 @@ white-space:nowrap;
 
 /* The slider itself */
 .slider {
-  -webkit-appearance: none;  /* Override default CSS styles */
-  appearance: none;
-  width: 25px; /* Full-width */
-  height: 100%; /* Specified height */
+  width: 100%; /* Full-width */
+  height: 20px; /* Specified height */
   background: #d3d3d3; /* Grey background */
   outline: none; /* Remove outline */
-  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  opacity: 1; /* Set transparency (for mouse-over effects on hover) */
   -webkit-transition: .2s; /* 0.2 seconds transition on hover */
   transition: opacity .2s;
 }
