@@ -143,6 +143,7 @@ h1 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 105% 1550px;
+  opacity: 0.25;
   }
   
   .four {
