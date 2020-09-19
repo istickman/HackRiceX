@@ -113,7 +113,7 @@ background-color: #49E83E;
 .p21 {
 font-size:40px;
 float:left;
-margin:-200px 0 0 -550px;
+margin:-100px 0 0 -550px;
 }
 .p22 {
 font-size:40px;
@@ -122,10 +122,10 @@ margin:-100px 0 0 150px;
 }
 
 .three {
-background-image: url('https://cdn.vox-cdn.com/thumbor/dgJmaIkwy4Xb9CACHYp_J4j18TI=/1400x1050/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/11839467/Screen_Shot_2018_07_29_at_10.27.09_AM.png');;
+background-image: url('https://pbs.twimg.com/media/DjRkWPeU8AIeWtG?format=jpg&name=large');;
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-size: 100% 100%;
+background-size: 100% 50%;
 }
 
 .four {
