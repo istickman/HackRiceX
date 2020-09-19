@@ -182,13 +182,17 @@ h1 {
   
   /* The slider itself */
   .slider {
-    width: 100%; /* Full-width */
+    width: 100px; /* Full-width */
     height: 20px; /* Specified height */
     background: #d3d3d3; /* Grey background */
     outline: none; /* Remove outline */
     opacity: 1; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
     transition: opacity .2s;
+  }
+  
+  .slidetest {
+    margin: -100px 0 0 -400px;
   }
   
   /* Mouse-over effects */
