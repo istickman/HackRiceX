@@ -26,6 +26,11 @@
         <h3>{{ feeling }}</h3>
 
         <button v-on:click="clear">Clear</button>
+        <h3>Gender: 
+        <button v-on:click="gender(1)">Male</button>
+        <button v-on:click="gender(2)">Female</button>
+        : {{ gen }}
+        </h3>
         
     </div>
     <script src="app.js"></script>
