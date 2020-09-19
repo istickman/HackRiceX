@@ -2,14 +2,14 @@ h1 {
     color: blue;
     font-size: 3em;
     text-decoration: underline;
-    }
+}
 
-#hrx_starter {
+/* #hrx_starter {
   /* width: 2520px; */
   padding: 10px;
   border: 5px solid gray;
   margin: 0;
-}
+} */
 
 button_group {
     background-color: #4CAF50;
