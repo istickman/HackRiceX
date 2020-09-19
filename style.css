@@ -91,7 +91,12 @@ body {
   .four {
     background-color: #E84B30;
   }
-  
+  .five {
+    background-color: #purple;
+  }
+  .six {
+    background-color: #blue;
+  }
   
   /* Translating the content's X ruins the scrollbar length. */
   /*
