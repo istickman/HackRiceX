@@ -19,6 +19,15 @@ new Vue({
             this.feeling = "So you are feeling "
             this.feeling = this.feeling.concat(this.feelname, ".")
 
+        },
+        
+        clear: function() {
+
+            this.username = ''
+            this.greeting = ''
+            this.feelname = ''
+            this.feeling = ''
+
         }
     }
 });
