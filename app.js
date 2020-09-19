@@ -5,35 +5,36 @@ new Vue({
         greeting: '',
         feelname: '',
         feeling: '',
-        gen: 0
+        household: 0,
+        race: 0,
+        age: 0,
+        native: 0,
+        region: 0,
+        residence: 0
     },
     methods: {
-        greet: function() {
-
-            this.greeting = "Hi, "
-            this.greeting = this.greeting.concat(this.username, "!")
-            
+        house: function(val) {
+            this.household = val
         },
 
-        feels: function() {
-
-            this.feeling = "So you are feeling "
-            this.feeling = this.feeling.concat(this.feelname, ".")
-
+        race: function(val) {
+            this.race = val
         },
         
-        clear: function() {
-
-            this.username = ''
-            this.greeting = ''
-            this.feelname = ''
-            this.feeling = ''
-
+        age: function(val) {
+            this.age = val
         },
         
-        gender: function(val) {
+        nativity: function(val) {
+            this.native = val
+        },
+        
+        region: function(val) {
+            this.region = val
+        },
 
-            this.gen = val
+        residence: function(val) {
+            this.residence = val
         }
     }
 });

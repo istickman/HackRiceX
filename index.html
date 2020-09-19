@@ -11,27 +11,47 @@
     <div id="hrx_starter">
         <h1>Welcome to HRX Beginners Track!</h1>
 
-        <!-- <h2>What is your age?</h2>
+        <div id="btn_group">
+            <h2 id="category">Household Type: 
+                <button_group v-on:click="house(0)">Married-couple</button_group>
+                <button_group v-on:click="house(1)">Female householder, no spouse present</button_group>
+                <button_group v-on:click="house(2)">Male householder, no spouse present</button_group>
+                <button_group v-on:click="house(3)">Female householder</button_group>
+                <button_group v-on:click="house(4)">Male householder</button_group>
+            </h2>
 
-        <input v-model="username" type="text">
-        <button v-on:click="greet">Greetings!</button>
+            <h2 id="category">Race: 
+                <button_group v-on:click="race(0)">White</button_group>
+                <button_group v-on:click="race(1)">White, not Hispanic</button_group>
+                <button_group v-on:click="race(2)">Black</button_group>
+                <button_group v-on:click="race(3)">Asian</button_group>
+                <button_group v-on:click="race(4)">Hispanic (any race)</button_group>
+            </h2>
 
-        <h2>{{ greeting }}</h2>
+            <h2 id="category">Age: 
+                <button_group v-on:click="age(0)">15 to 24 years</button_group>
+                <button_group v-on:click="age(1)">25 to 34 years</button_group>
+                <button_group v-on:click="age(2)">35 to 44 years</button_group>
+                <button_group v-on:click="age(3)">45 to 54 years</button_group>
+                <button_group v-on:click="age(4)">55 to 64 years</button_group>
+                <button_group v-on:click="age(5)">65 years and older</button_group>
+            </h2>
 
-        <h3>How have you been?</h3>
+            <h2 id="category">Nativity: 
+                <button_group v-on:click="nativity(0)">Native-born</button_group>
+                <button_group v-on:click="nativity(1)">Naturalized citizen</button_group>
+                <button_group v-on:click="nativity(2)">Not a citizen</button_group>
+            </h2>
 
-        <input v-model="feelname" type="text">
-        <button v-on:click="feels">Enter</button>
+            <h2 id="category">Region: 
 
-        <h3>{{ feeling }}</h3>
+            </h2>
+            
+            <h2 id="category">Residence: 
 
-        <button v-on:click="clear">Clear</button> -->
-        
-        <h3>Gender: 
-        <button_group v-on:click="gender(1)">Male</button_group>
-        <button_group v-on:click="gender(2)">Female</button_group>
-        : {{ gen }}
-        </h3>
+            </h2>
+
+        </div>
         
     </div>
     <script src="app.js"></script>
@@ -39,7 +59,7 @@
 </html>
 <style>
 body {
-    background-image: url('http://clipart-library.com/new_gallery/253-2532136_fist-transparent-social-justice-freedom-clipart-transparent-background.png');
+    /* background-image: url('http://clipart-library.com/new_gallery/253-2532136_fist-transparent-social-justice-freedom-clipart-transparent-background.png'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
