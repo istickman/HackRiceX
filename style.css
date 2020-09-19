@@ -85,9 +85,10 @@ body {
   .p1 {
     font-size:16px;
     float:left;
-    margin:-100px 0 0 -450px;
-    width:100px;
-    height:100px;
+    margin:-100px 0 0 -650px;
+    width:600px;
+    height:400px;
+    padding: 5px 15px;
     border: 1px solid black;
     text-align: center;
   }
