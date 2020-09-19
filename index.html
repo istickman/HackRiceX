@@ -12,12 +12,9 @@
         <h1>Welcome to HRX Beginners Track!</h1>
 
         <div id="btn_group">
-            <h2 id="category">Household Type: 
-                <button_group v-on:click="house(0)">Married-couple</button_group>
-                <button_group v-on:click="house(1)">Female householder, no spouse present</button_group>
-                <button_group v-on:click="house(2)">Male householder, no spouse present</button_group>
-                <button_group v-on:click="house(3)">Female householder</button_group>
-                <button_group v-on:click="house(4)">Male householder</button_group>
+            <h2 id="category">Gender: 
+                <button_group v-on:click="gender(0)">Male</button_group>
+                <button_group v-on:click="gender(1)">Female</button_group>
             </h2>
 
             <h2 id="category">Race: 
@@ -44,11 +41,16 @@
             </h2>
 
             <h2 id="category">Region: 
-
+                <button_group v-on:click="region(0)">Northeast</button_group>
+                <button_group v-on:click="region(1)">Midwest</button_group>
+                <button_group v-on:click="region(2)">South</button_group>
+                <button_group v-on:click="region(3)">West</button_group>
             </h2>
             
             <h2 id="category">Residence: 
-
+                <button_group v-on:click="residence(0)">Inside principal cities</button_group>
+                <button_group v-on:click="residence(1)">Outside principal cities</button_group>
+                <button_group v-on:click="residence(2)">Outside metropolitan statistical areas</button_group>
             </h2>
 
         </div>

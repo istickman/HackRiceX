@@ -1,11 +1,7 @@
 new Vue({
     el:'#hrx_starter',
     data: {
-        username: '',
-        greeting: '',
-        feelname: '',
-        feeling: '',
-        household: 0,
+        gender: 0,
         race: 0,
         age: 0,
         native: 0,
@@ -13,8 +9,8 @@ new Vue({
         residence: 0
     },
     methods: {
-        house: function(val) {
-            this.household = val
+        gender: function(val) {
+            this.gender = val
         },
 
         race: function(val) {
