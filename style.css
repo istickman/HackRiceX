@@ -101,7 +101,7 @@ text-align: center;
 .p12 {
 font-size:40px;
 float:left;
-margin:-100px 0 0 150px;
+margin:-225px 0 0 150px;
 }
 
 .p21 {
@@ -137,7 +137,7 @@ background-color: blue;
 }
 
 #answers {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 /* Translating the content's X ruins the scrollbar length. */
