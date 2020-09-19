@@ -17,6 +17,14 @@
         <button v-on:click="greet">Greetings!</button>
 
         <h2>{{ greeting }}</h2>
+
+        <h3>How have you been?</h3>
+
+        <input v-model="feeling" type="text">
+        <button v-on:click="feels">Enter</button>
+
+        <h3>{{ feeling }}</h3>
+        
     </div>
     <script src="app.js"></script>
 </body>
