@@ -87,12 +87,12 @@ font-size:0;
 background-color: #45CCFF;
 }
 .p11 {
-font-size:16px;
+font-size:24px;
 float:left;
-margin:-315px 0 0 -670px;
-width:600px;
+margin:-315px 0 0 -700px;
+width:630px;
 height:720px;
-padding: 5px 15px;
+padding: 30px 15px;
 background-color: black;
 text-align: center;
 }
@@ -103,8 +103,11 @@ margin:-200px 0 0 150px;
 text-align: center;
 }
 #questions {
-  padding: 40px 10px;
+  padding: 30px 0px;
   margin:100px 0 0 0;
+}
+#answers {
+  margin-bottom: 150px;
 }
 
 .two {
@@ -138,10 +141,6 @@ background-color: purple;
 
 .six {
 background-color: blue;
-}
-
-#answers {
-  margin-bottom: 150px;
 }
 
 /* Translating the content's X ruins the scrollbar length. */
