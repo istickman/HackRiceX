@@ -123,6 +123,10 @@ background-color: purple;
 background-color: blue;
 }
 
+#answers {
+  margin-bottom: 100px;
+}
+
 /* Translating the content's X ruins the scrollbar length. */
 /*
 #container {
