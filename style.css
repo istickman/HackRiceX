@@ -1,271 +1,272 @@
 h1 {
-color: blue;
-font-size: 3em;
-text-decoration: underline;
-}
-
-#hrx_starter {
-/* width: 2520px; */
-/* padding: 10px;
-border: 5px solid gray; */
-margin: 0;
-}
-
-button_group {
-background-color: #4CAF50;
-border: none;
-color: white;
-padding: 5px 15px;
-/* width: 75px; */
-text-align: center;
-text-decoration: none;
-/* display: inline-block; */
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
-/*float: left;*/
-border: 1px solid black;
-}
-
-button_group:hover {
-background-color: #3e8e41;
-}
-
-#btn_group {
-border: none;
-text-align: center;
-}
-
-#category {
-font-size: 16px;
-}
-
-body {
-margin:0;
-font-family:Georgia;
-}
-
-#container .box {
-width:100vw;
-height:100vh;
-display:inline-block;
-position:relative;
-}
-
-#container .box > div {
-width:100px;
-height:100px;
-font-size:96px;
-color:#FFF;
-position:absolute;
-top:50%;
-left:50%;
-margin:-50px 0 0 -50px;
-line-height:.7;
-font-weight:bold;
-}
-
-#container {
-overflow-y:scroll;
-overflow-x:hidden;
-transform: rotate(270deg) translateX(-100%);
-transform-origin: top left;
-background-color:#999;
-position:absolute;
-width:100vh;
-height:100vw;
-}
-
-#container2 {
-transform: rotate(90deg) translateY(-100vh);
-transform-origin: top left;
-white-space:nowrap;
-font-size:0;
-}
-
-.one {
-background-color: #45CCFF;
-}
-.box1 {
-  /* background-color: black; */
+  color: blue;
+  font-size: 3em;
+  text-decoration: underline;
+  }
   
-  /* width:100%;
-  height:100%; */
+  #hrx_starter {
+  /* width: 2520px; */
+  /* padding: 10px;
+  border: 5px solid gray; */
+  margin: 0;
+  }
+  
+  button_group {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  /* width: 75px; */
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  /*float: left;*/
+  border: 1px solid black;
+  }
+  
+  button_group:hover {
+  background-color: #3e8e41;
+  }
+  
+  #btn_group {
+  border: none;
+  text-align: center;
+  }
+  
+  #category {
+  font-size: 16px;
+  }
+  
+  body {
+  margin:0;
+  font-family:Georgia;
+  }
+  
+  #container .box {
+  width:100vw;
+  height:100vh;
+  display:inline-block;
+  position:relative;
+  }
+  
+  #container .box > div {
+  width:100px;
+  height:100px;
+  font-size:96px;
+  color:#FFF;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin:-50px 0 0 -50px;
+  line-height:.7;
+  font-weight:bold;
+  }
+  
+  #container {
+  overflow-y:scroll;
+  overflow-x:hidden;
+  transform: rotate(270deg) translateX(-100%);
+  transform-origin: top left;
+  background-color:#999;
+  position:absolute;
+  width:100vh;
+  height:100vw;
+  }
+  
+  #container2 {
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  white-space:nowrap;
+  font-size:0;
+  }
+  
+  .one {
+  background-color: #45CCFF;
+  }
+  .box1 {
+    /* background-color: black; */
+    
+    /* width:100%;
+    height:100%; */
+    float:left;
+    margin: -815px 0 0 -650px;
+    width:630px;
+    height:1720px;
+    padding: 30px 15px;
+    background-color: black;
+  }
+  .p11 {
+  font-size:24px;
   float:left;
-  margin: -815px 0 0 -700px;
+  margin:-315px 0 0 -650px;
   width:630px;
-  height:1720px;
+  height:720px;
   padding: 30px 15px;
-  background-color: black;
-}
-.p11 {
-font-size:24px;
-float:left;
-margin:-315px 0 0 -700px;
-width:630px;
-height:720px;
-padding: 30px 15px;
-/* background-color: black; */
-/* border: 1px solid black; */
-text-align: center;
-}
-.p12 {
-font-size:40px;
-float:left;
-margin:-200px 0 0 170px;
-text-align: center;
-}
-#questions {
-  padding: 30px 0px;
-  margin:100px 0 0 0;
-}
-#answers {
-  margin-bottom: 150px;
-}
-
-.two {
-background-color: #49E83E;
-}
-.p21 {
-font-size:40px;
-float:left;
-margin:-100px 0 0 -550px;
-}
-.p22 {
-font-size:40px;
-float:left;
-margin:-100px 0 0 150px;
-}
-
-.three {
-background-image: url('https://pbs.twimg.com/media/DjRkWPeU8AIeWtG?format=jpg&name=large');;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 105% 1550px;
-}
-
-.four {
-background-color: #E84B30;
-}
-
-.five {
-background-color: purple;
-}
-
-.six {
-background-color: blue;
-}
-
-/* Translating the content's X ruins the scrollbar length. */
-/*
-#container {
-overflow:scroll;
-transform: rotate(90deg) translateY(-100%);
-transform-origin: top left;
-background-color:#999;
-position:absolute;
-width:100vh;
-height:100vw;
-}
-#container2 {
-transform: rotate(-90deg) translateX(-100vw);
-transform-origin: top left;
-white-space:nowrap;
-}
-*/
-.slidecontainer {
-  width: 100%; /* Width of the outside container */
-}
-
-/* The slider itself */
-.slider {
-  width: 100%; /* Full-width */
-  height: 20px; /* Specified height */
-  background: #d3d3d3; /* Grey background */
-  outline: none; /* Remove outline */
-  opacity: 1; /* Set transparency (for mouse-over effects on hover) */
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-  transition: opacity .2s;
-}
-
-/* Mouse-over effects */
-.slider:hover {
-  opacity: 1; /* Fully shown on mouse-over */
-}
-
-/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Override default look */
-  appearance: none;
-  width: 25px; /* Set a specific slider handle width */
-  height: 25px; /* Slider handle height */
-  background: #4CAF50; /* Green background */
-  cursor: pointer; /* Cursor on hover */
-}
-
-.slider::-moz-range-thumb {
-  width: 25px; /* Set a specific slider handle width */
-  height: 25px; /* Slider handle height */
-  background: #4CAF50; /* Green background */
-  cursor: pointer; /* Cursor on hover */
-}
-
- /* The container must be positioned relative: */
- .custom-select {
-    position: relative;
-    font-family: Arial;
+  /* background-color: black; */
+  /* border: 1px solid black; */
+  text-align: center;
+  }
+  .p12 {
+  font-size:40px;
+  /* float:left; */
+  margin:-200px 0 0 170px;
+  text-align: center;
+  display: inline-block;
+  }
+  #questions {
+    padding: 30px 0px;
+    margin:100px 0 0 0;
+  }
+  #answers {
+    margin-bottom: 150px;
   }
   
-  .custom-select select {
-    display: none; /*hide original SELECT element: */
+  .two {
+  background-color: #49E83E;
+  }
+  .p21 {
+  font-size:40px;
+  float:left;
+  margin:-100px 0 0 -550px;
+  }
+  .p22 {
+  font-size:40px;
+  float:left;
+  margin:-100px 0 0 150px;
   }
   
-  .select-selected {
-    background-color: DodgerBlue;
+  .three {
+  background-image: url('https://pbs.twimg.com/media/DjRkWPeU8AIeWtG?format=jpg&name=large');;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 105% 1550px;
   }
   
-  /* Style the arrow inside the select element: */
-  .select-selected:after {
-    position: absolute;
-    content: "";
-    top: 14px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: #fff transparent transparent transparent;
+  .four {
+  background-color: #E84B30;
   }
   
-  /* Point the arrow upwards when the select box is open (active): */
-  .select-selected.select-arrow-active:after {
-    border-color: transparent transparent #fff transparent;
-    top: 7px;
+  .five {
+  background-color: purple;
   }
   
-  /* style the items (options), including the selected item: */
-  .select-items div,.select-selected {
-    color: #ffffff;
-    padding: 8px 16px;
-    border: 1px solid transparent;
-    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-    cursor: pointer;
+  .six {
+  background-color: blue;
   }
   
-  /* Style items (options): */
-  .select-items {
-    position: absolute;
-    background-color: DodgerBlue;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 99;
+  /* Translating the content's X ruins the scrollbar length. */
+  /*
+  #container {
+  overflow:scroll;
+  transform: rotate(90deg) translateY(-100%);
+  transform-origin: top left;
+  background-color:#999;
+  position:absolute;
+  width:100vh;
+  height:100vw;
+  }
+  #container2 {
+  transform: rotate(-90deg) translateX(-100vw);
+  transform-origin: top left;
+  white-space:nowrap;
+  }
+  */
+  .slidecontainer {
+    width: 100%; /* Width of the outside container */
   }
   
-  /* Hide the items when the select box is closed: */
-  .select-hide {
-    display: none;
+  /* The slider itself */
+  .slider {
+    width: 100%; /* Full-width */
+    height: 20px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 1; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
   }
   
-  .select-items div:hover, .same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
-  } 
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+   /* The container must be positioned relative: */
+   .custom-select {
+      position: relative;
+      font-family: Arial;
+    }
+    
+    .custom-select select {
+      display: none; /*hide original SELECT element: */
+    }
+    
+    .select-selected {
+      background-color: DodgerBlue;
+    }
+    
+    /* Style the arrow inside the select element: */
+    .select-selected:after {
+      position: absolute;
+      content: "";
+      top: 14px;
+      right: 10px;
+      width: 0;
+      height: 0;
+      border: 6px solid transparent;
+      border-color: #fff transparent transparent transparent;
+    }
+    
+    /* Point the arrow upwards when the select box is open (active): */
+    .select-selected.select-arrow-active:after {
+      border-color: transparent transparent #fff transparent;
+      top: 7px;
+    }
+    
+    /* style the items (options), including the selected item: */
+    .select-items div,.select-selected {
+      color: #ffffff;
+      padding: 8px 16px;
+      border: 1px solid transparent;
+      border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+      cursor: pointer;
+    }
+    
+    /* Style items (options): */
+    .select-items {
+      position: absolute;
+      background-color: DodgerBlue;
+      top: 100%;
+      left: 0;
+      right: 0;
+      z-index: 99;
+    }
+    
+    /* Hide the items when the select box is closed: */
+    .select-hide {
+      display: none;
+    }
+    
+    .select-items div:hover, .same-as-selected {
+      background-color: rgba(0, 0, 0, 0.1);
+    } 
