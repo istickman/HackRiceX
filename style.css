@@ -33,6 +33,7 @@ button_group:hover {
 
 #btn_group {
     border: none;
+    text-align: center;
 }
 
 #category {
