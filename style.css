@@ -1,5 +1,7 @@
 h1 {
-    color: blue
+    color: blue;
     font-size: 3em;
     text-decoration: underline;
     }
+
+background: content-box radial-gradient(crimson, skyblue);
