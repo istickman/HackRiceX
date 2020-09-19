@@ -191,8 +191,11 @@ h1 {
     transition: opacity .2s;
   }
   
-  .slidetest {
+  .slideincome {
     margin: -100px 0 0 -400px;
+  }
+  .slidefood {
+    margin: 0px 0 0 -400px;
   }
   
   /* Mouse-over effects */
