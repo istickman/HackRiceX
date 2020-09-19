@@ -15,6 +15,7 @@
             <h2 id="category">Gender: 
                 <button_group v-on:click="gender(0)">Male</button_group>
                 <button_group v-on:click="gender(1)">Female</button_group>
+                {{genderv}}
             </h2>
 
             <h2 id="category">Race: 
@@ -23,6 +24,7 @@
                 <button_group v-on:click="race(2)">Black</button_group>
                 <button_group v-on:click="race(3)">Asian</button_group>
                 <button_group v-on:click="race(4)">Hispanic (any race)</button_group>
+                {{racev}}
             </h2>
 
             <h2 id="category">Age: 
@@ -32,12 +34,14 @@
                 <button_group v-on:click="age(3)">45 to 54 years</button_group>
                 <button_group v-on:click="age(4)">55 to 64 years</button_group>
                 <button_group v-on:click="age(5)">65 years and older</button_group>
+                {{agev}}
             </h2>
 
             <h2 id="category">Nativity: 
                 <button_group v-on:click="nativity(0)">Native-born</button_group>
                 <button_group v-on:click="nativity(1)">Naturalized citizen</button_group>
                 <button_group v-on:click="nativity(2)">Not a citizen</button_group>
+                {{nativev}}
             </h2>
 
             <h2 id="category">Region: 
@@ -45,12 +49,14 @@
                 <button_group v-on:click="region(1)">Midwest</button_group>
                 <button_group v-on:click="region(2)">South</button_group>
                 <button_group v-on:click="region(3)">West</button_group>
+                {{regionv}}
             </h2>
             
             <h2 id="category">Residence: 
                 <button_group v-on:click="residence(0)">Inside principal cities</button_group>
                 <button_group v-on:click="residence(1)">Outside principal cities</button_group>
                 <button_group v-on:click="residence(2)">Outside metropolitan statistical areas</button_group>
+                {{residencev}}
             </h2>
 
         </div>

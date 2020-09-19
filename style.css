@@ -16,8 +16,7 @@ button_group {
     border: none;
     color: white;
     padding: 5px 15px;
-    height: 75px;
-    width: 75px;
+    /* width: 75px; */
     text-align: center;
     text-decoration: none;
     /* display: inline-block; */

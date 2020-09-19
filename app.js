@@ -1,36 +1,36 @@
 new Vue({
     el:'#hrx_starter',
     data: {
-        gender: 0,
-        race: 0,
-        age: 0,
-        native: 0,
-        region: 0,
-        residence: 0
+        genderv: 0,
+        racev: 0,
+        agev: 0,
+        nativev: 0,
+        regionv: 0,
+        residencev: 0
     },
     methods: {
         gender: function(val) {
-            this.gender = val
+            this.genderv = val
         },
 
         race: function(val) {
-            this.race = val
+            this.racev = val
         },
         
         age: function(val) {
-            this.age = val
+            this.agev = val
         },
         
         nativity: function(val) {
-            this.native = val
+            this.nativev = val
         },
         
         region: function(val) {
-            this.region = val
+            this.regionv = val
         },
 
         residence: function(val) {
-            this.residence = val
+            this.residencev = val
         }
     }
 });
