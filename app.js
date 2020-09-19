@@ -40,7 +40,7 @@ new Vue({
     
 });
 
-functino money(spent, quintile){
+function money(spent, quintile){
     var expenditures = {
         "Income after taxes":["$71,487","$12,236","$32,945","$53,123","$83,864","$174,777"],
         "Total Spending":["$8,333,301","$28,672","$40,330","$53,248","$70,892","$121,935"],
@@ -54,4 +54,4 @@ functino money(spent, quintile){
         "Everything Else":["","$5,803","$5,215","$8,698","$25,712","$32,219"]};
         return expenditures.spent[quintile]
 }
-    
+
