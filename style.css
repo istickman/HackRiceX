@@ -342,9 +342,12 @@ white-space:nowrap;
 } 
 
 .p4{
-  font-size:24px;
+  color: rgb(1, 51, 1);
+  position:top;
+  font-size:35px;
+  /* font-size:24px; */
   float:left;
-  margin:-315px 0 0 -650px;
+  margin:-735px 0 0 -650px;
   width:630px;
   height:720px;
   padding: 30px 10px;
