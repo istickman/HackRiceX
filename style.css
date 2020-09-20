@@ -291,7 +291,7 @@ white-space:nowrap;
 /* The container must be positioned relative: */
 .custom-select {
   position: relative;
-  margin: -520px 180px 0 -350px;
+  margin: -570px 180px 0 -350px;
   font-family: Arial;
   font-size: 28px;
 }
@@ -354,4 +354,8 @@ white-space:nowrap;
   /* background-color: black; */
   /* border: 1px solid black; */
   text-align: center;
+}
+
+.p21{
+  margin:-630px 0 0 -350px;
 }

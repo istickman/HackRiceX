@@ -123,9 +123,48 @@
                             <p style="font-size: 23px;color:purple">Healthcare: $<span id="demo6"></span></p>
                         </div>
                     </div>
-                    <span class="p4">
+                    <span class="p4">   
                         <p id="answer">Now choose an income and try to imagine how you would spend your money. </p>
                     </span>
+
+                    <span class="p21">
+                        <script type = "text/javascript">
+                        function pic1()
+                        {
+                            
+                            document.getElementById("img").src = "https://raw.githubusercontent.com/istickman/HackRiceX/master/BottomQuintile.jpg";
+                            document.getElementById("img").style.margin = "42px 0 0 0";
+                        }
+                        function pic2()
+                        {
+                            document.getElementById("img").src = "https://raw.githubusercontent.com/istickman/HackRiceX/master/2ndQuintile.jpg";
+                            document.getElementById("img").style.margin = "42px 0 0 0";
+                        }
+                        function pic3()
+                        {
+                            document.getElementById("img").src = "https://raw.githubusercontent.com/istickman/HackRiceX/master/MiddleQuintile.jpg";
+                            document.getElementById("img").style.margin = "42px 0 0 0";
+                        } 
+                        function pic4()
+                        {
+                            document.getElementById("img").src = "https://raw.githubusercontent.com/istickman/HackRiceX/master/FourthQuintile.jpg";
+                            document.getElementById("img").style.margin = "42px 0 0 0";
+                        } 
+                        function pic5()
+                        {
+                            document.getElementById("img").src = "https://raw.githubusercontent.com/istickman/HackRiceX/master/FifthQuintile.jpg";
+                            document.getElementById("img").style.margin = "42px 0 0 0";
+                        }  </script>
+                        <img src = "" id = "img"/>
+                        <input type="button" style="color: white;background-color: darkgreen; font-size: 28px;font-family: Arial;font-weight:bold;" value="Bottom Quintile" onclick="pic1()"/>
+                        <input type="button" style="color: white;background-color: darkgreen; font-size: 28px;font-family: Arial;font-weight:bold;" value="2nd Quintile" onclick="pic2()"/>
+                        <input type="button" style="color: white;background-color: darkgreen; font-size: 28px;font-family: Arial;font-weight:bold;" value="Middle Quintile" onclick="pic3()"/>
+                        <input type="button" style="color: white;background-color: darkgreen; font-size: 28px;font-family: Arial;font-weight:bold;" value="4th Quintile" onclick="pic4()"/>
+                        <input type="button" style="color: white;background-color: darkgreen; font-size: 28px;font-family: Arial;font-weight:bold;" value="Top Quintile" onclick="pic5()"/>
+                    </span>
+
+
+
                     <div class="custom-select">
                         <select>
                             <option value="0">Income Quintile:</option>
@@ -136,7 +175,6 @@
                             <option value="5">Top: $174,777</option>
                         </select>
                     </div>
-                    
                 </div></div>
                 
                 <div class="box five"><div>Last</div></div>
@@ -147,11 +185,3 @@
     <script src="app.js"></script>
 </body>
 </html>
-<style>
-body {
-    /* background-image: url('http://clipart-library.com/new_gallery/253-2532136_fist-transparent-social-justice-freedom-clipart-transparent-background.png'); */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-</style> 
