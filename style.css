@@ -183,14 +183,6 @@ body {
 }
 
 .four {
-background-image: url("https://media.gcflearnfree.org/content/55e06a511496fdb039ceef59_01_17_2014/CreatingABudget_Intro1.png");
-background-repeat: no-repeat;
-/* background-attachment: fixed; */
-background-size: 100%;
-opacity: 0.75;
-}
-
-.five {
   background-image: url("https://media.gcflearnfree.org/content/55e06a511496fdb039ceef59_01_17_2014/CreatingABudget_Intro1.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -198,7 +190,7 @@ opacity: 0.75;
   opacity: 0.55;
 }
 
-.six {
+.five {
 background-color: blue;
 }
 
