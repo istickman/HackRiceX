@@ -328,11 +328,6 @@ white-space:nowrap;
     display: none;
   }
   
-<<<<<<< HEAD
-  .select-items div:hover, .same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
-  } 
-=======
    /* The container must be positioned relative: */
    .custom-select {
       position: fixed;
@@ -394,4 +389,3 @@ white-space:nowrap;
     .select-items div:hover, .same-as-selected {
       background-color: rgba(0, 0, 0, 0.1);
     } 
->>>>>>> 56cf36757eb8c1e2179c6ce97cc7c2db7a708fde
