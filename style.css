@@ -357,7 +357,21 @@ white-space:nowrap;
 }
 
 .p41{
-  margin:-630px 0 0 -350px;
+  margin: -630px 0 0 -350px;
+  font-size:40px;
+  float:left;
+  /* margin:-200px 0 0 -550px; */
+  text-align:center;
+}
+.p51{
+  margin: 0px 0 0 0px;
+  font-size:40px;
+  float:left;
+  /* margin:-200px 0 0 -550px; */
+  text-align:center;
+}
+.p61{
+  margin: 5px 0 0 0px;
   font-size:40px;
   float:left;
   /* margin:-200px 0 0 -550px; */
