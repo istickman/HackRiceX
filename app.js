@@ -42,8 +42,8 @@ new Vue({
 
 function money(spending, quintile){
     var expenditures = {
-        "Income after taxes":["$71,487","$12,236","$32,945","$53,123","$83,864","$174,777"],
-        "Total Spending":["$8,333,301","$28,672","$40,330","$53,248","$70,892","$121,935"],
+        "Income_after_taxes":["$71,487","$12,236","$32,945","$53,123","$83,864","$174,777"],
+        "Total_Spending":["$8,333,301","$28,672","$40,330","$53,248","$70,892","$121,935"],
         "Food":["$1,078,750","$4,405","$5,833","$7,505","$9,055","$13,990"],
         "Alcohol":["$76,493","$208","$330","$440","$657","$1,255"],
         "Housing":["$2,734,285","$11,475","$14,784","$18,195","$22,537","$36,390"],
@@ -99,9 +99,22 @@ var slider2 = document.getElementById("myRange2");
 var output2 = document.getElementById("demo2");
 output2.innerHTML = slider2.value; // Display the default slider value
 
+var slider3 = document.getElementById("myRange3");
+var output3 = document.getElementById("demo3");
+output3.innerHTML = slider3.value;
+
+var slider4 = document.getElementById("myRange3");
+var output4 = document.getElementById("demo4");
+output4.innerHTML = slider4.value;
 // Update the current slider value (each time you drag the slider handle)
 slider2.oninput = function() {
   output2.innerHTML = this.value;
+} 
+slider3.oninput = function() {
+    output3.innerHTML = this.value;
+} 
+slider4.oninput = function() {
+    output4.innerHTML = this.value;
 } 
 
 

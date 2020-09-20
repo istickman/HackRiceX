@@ -192,10 +192,16 @@ h1 {
   }
   
   .slideincome {
-    margin: -100px 0 0 -400px;
+    margin: -200px 0 0 -650px;
   }
   .slidefood {
-    margin: 0px 0 0 -400px;
+    margin: 200px 0 0 -650px;
+  }
+  .slidealcohol {
+    margin: 0px 0 0 -650px;
+  }
+  .slidehouse {
+    margin: -300px 0 0 -650px;
   }
   
   /* Mouse-over effects */
