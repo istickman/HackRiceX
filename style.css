@@ -151,12 +151,16 @@ h1 {
   background-image: url("https://media.gcflearnfree.org/content/55e06a511496fdb039ceef59_01_17_2014/CreatingABudget_Intro1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 105% 1550px;
-  opacity: 0.5;
+  background-size: 100%;
+  opacity: 0.75;
   }
   
   .five {
-  background-color: purple;
+    background-image: url("https://media.gcflearnfree.org/content/55e06a511496fdb039ceef59_01_17_2014/CreatingABudget_Intro1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:60%, 90%;
+    opacity: 0.65;
   }
   
   .six {
