@@ -156,6 +156,31 @@ body {
   position: rela  x1tive;
 }
 
+#links {
+  font-size:24px;
+}
+
+.p81 {
+  float:left;
+  margin:-330px 0 0 -650px;
+  width:630px;
+  height:720px;
+  padding: 30px 10px;
+}
+
+.p82 {
+  float:left;
+  margin:-50px 0 0 -650px;
+  width:630px;
+  height:720px;
+  padding: 30px 10px;
+}
+
+#title {
+  font-size:40px;
+  color: black;
+}
+
 .two {
   background-color: #49E83E;
 }
@@ -194,7 +219,7 @@ body {
 }
 
 .five {
-background-color: blue;
+background-color: lightpink;
 }
 
 /* Translating the content's X ruins the scrollbar length. */
