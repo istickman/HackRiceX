@@ -182,7 +182,7 @@ h1 {
   
   /* The slider itself */
   .slider {
-    width: 100px; /* Full-width */
+    width: 250px; /* Full-width */
     height: 20px; /* Specified height */
     background: #d3d3d3; /* Grey background */
     outline: none; /* Remove outline */
@@ -192,7 +192,7 @@ h1 {
   }
   
   .slideincome {
-    margin: -200px 0 0 -650px;
+    margin: -275px 0 0 -700px;
   }
   .slidefood {
     margin: 200px 0 0 -650px;
@@ -213,16 +213,22 @@ h1 {
   .slider::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */
     appearance: none;
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
+    width: 40px; /* Set a specific slider handle width */
+    height: 40px; /* Slider handle height */
+    border-radius: 50%;
+    background: url('https://www.variety.org.au/nsw/wp-content/uploads/2018/05/dollar-sign-icon.jpg');
+    background-size: 300%;
+    background-position: center;
     cursor: pointer; /* Cursor on hover */
   }
   
   .slider::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
+    width: 40px; /* Set a specific slider handle width */
+    height: 40px; /* Slider handle height */
+    border-radius: 50%;
+    background: url('https://www.variety.org.au/nsw/wp-content/uploads/2018/05/dollar-sign-icon.jpg');
+    background-size: 300%;
+    background-position: center;
     cursor: pointer; /* Cursor on hover */
   }
   

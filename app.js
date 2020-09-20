@@ -103,7 +103,7 @@ var slider3 = document.getElementById("myRange3");
 var output3 = document.getElementById("demo3");
 output3.innerHTML = slider3.value;
 
-var slider4 = document.getElementById("myRange3");
+var slider4 = document.getElementById("myRange4");
 var output4 = document.getElementById("demo4");
 output4.innerHTML = slider4.value;
 // Update the current slider value (each time you drag the slider handle)
@@ -116,7 +116,6 @@ slider3.oninput = function() {
 slider4.oninput = function() {
     output4.innerHTML = this.value;
 } 
-
 
 var x, i, j, l, ll, selElmnt, a, b, c;
 /* Look for any elements with the class "custom-select": */
