@@ -255,10 +255,10 @@ white-space:nowrap;
 }
 
 .slideincome {
-  margin: -225px 0 0 -650px;
+  margin: -250px 0 0 -650px;
 }
 .slidefood {
-  margin: -50px 0 0 -650px;
+  margin: -40px 0 0 -650px;
 }
 .slidealcohol{
   margin: -50px 0 0 -650px;
@@ -316,7 +316,7 @@ white-space:nowrap;
 /* The container must be positioned relative: */
 .custom-select {
   position: relative;
-  margin: -570px 180px 0 -350px;
+  margin: -629px 498px 0 -648px;
   font-family: Arial;
   font-size: 28px;
 }
