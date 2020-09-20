@@ -1,41 +1,34 @@
 new Vue({
     el:'#hrx_starter',
     data: {
-        username: '',
-        greeting: '',
-        feelname: '',
-        feeling: '',
-        money: 0,
-        gen: 0
+        genderv: 0,
+        racev: 0,
+        agev: 0,
+        nativityv: 0,
+        regionv: 0,
+        residencev: 0
+
     },
     methods: {
-        greet: function() {
-
-            this.greeting = "Hi, "
-            this.greeting = this.greeting.concat(this.username, "!")
-            
-        },
-
-        feels: function() {
-
-            this.feeling = "So you are feeling "
-            this.feeling = this.feeling.concat(this.feelname, ".")
-
-        },
-        
-        clear: function() {
-
-            this.username = ''
-            this.greeting = ''
-            this.feelname = ''
-            this.feeling = ''
-
-        },
-        
         gender: function(val) {
+            this.genderv = val
+        },
 
-            this.gen = val
-        }   
+        race: function(val) {
+            this.racev = val
+        },
+        
+        age: function(val) {
+            this.agev = val
+        },
+        
+        nativity: function(val) {
+            this.nativityv = val
+        },
+        
+        residence: function(val) {
+            this.residencev = val
+        }
     }
     
 });
