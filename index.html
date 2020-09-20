@@ -45,10 +45,11 @@
 
                 <div class="box bbutton"><div>
                     <div id="btn_group">
+                        <h2 id="catitle">How would <span style="color: red">YOUR LIFE</span> be different if you were...</h2>
                         <h2 id="category1">
                             <button_group v-on:click="gender(1); poverty('Male')">Male</button_group> vs.
                             <button_group v-on:click="gender(2); poverty('Female')">Female</button_group>
-                            {{genderv}}
+                            <!-- {{genderv}} -->
                         </h2>
             
                         <h2 id="category2">
@@ -56,7 +57,7 @@
                             <button_group v-on:click="race(2); poverty('Black')">Black</button_group> vs.
                             <button_group v-on:click="race(3); poverty('Asian')">Asian</button_group> vs.
                             <button_group v-on:click="race(4); poverty('Hispanic')">Hispanic</button_group>
-                            {{racev}}
+                            <!-- {{racev}} -->
                         </h2>
             
                         <h2 id="category3">
@@ -66,14 +67,14 @@
                             <button_group v-on:click="age(4); poverty('45 to 54')">45 to 54</button_group> vs.
                             <button_group v-on:click="age(5); poverty('55 to 64')">55 to 64</button_group> vs.
                             <button_group v-on:click="age(6); poverty('65+')">65+</button_group>
-                            {{agev}}
+                            <!-- {{agev}} -->
                         </h2>
             
                         <h2 id="category4">
                             <button_group v-on:click="nativity(1); poverty('Native-born')">Native-born</button_group> vs.
                             <button_group v-on:click="nativity(2); poverty('Naturalized citizen')">Naturalized citizen</button_group> vs.
                             <button_group v-on:click="nativity(3); poverty('Not a citizen')">Not a citizen</button_group>
-                            {{nativityv}}
+                            <!-- {{nativityv}} -->
                         </h2>
             
                         <h2 id="category5">
@@ -81,14 +82,14 @@
                             <button_group v-on:click="region(2); poverty('Midwest')">Midwest</button_group> vs.
                             <button_group v-on:click="region(3); poverty('South')">South</button_group> vs.
                             <button_group v-on:click="region(4); poverty('West')">West</button_group>
-                            {{regionv}}
+                            <!-- {{regionv}} -->
                         </h2>
                         
                         <h2 id="category6">
                             <button_group v-on:click="residence(1); poverty('Inside principal cities')">Inside principal cities</button_group> vs.
                             <button_group v-on:click="residence(2); poverty('Outside principal cities')">Outside principal cities</button_group> vs.
                             <button_group v-on:click="residence(3); poverty('Outside metropolitan statistical areas')">Outside metropolitan statistical areas</button_group>
-                            {{residencev}}
+                            <!-- {{residencev}} -->
                         </h2>
                         <h2 id="nums">Median Income: <span style="color: green">${{valv[0]}}</span> and Poverty Rate <span style="color: red">{{valv[1]}}%</span></h2>
             

@@ -12,7 +12,7 @@ h1 {
 }
   
 button_group {
-  background-color: #4CAF50;
+  background-color: #5a1963;
   border: none;
   color: white;
   padding: 5px 15px;
@@ -28,7 +28,7 @@ button_group {
 }
 
 button_group:hover {
-  background-color: #3e8e41;
+  background-color: #3b0642;
 }
 
 #btn_group {
@@ -36,9 +36,13 @@ button_group:hover {
   text-align: center;
 }
 
+#catitle {
+  font-size: 36px;
+  margin: -250px 0 0 -425px;
+}
 #category1 {
   font-size: 24px;
-  margin: -200px 0 0 -150px;
+  margin: 50px 0 0 -150px;
 }
 #category2 {
   font-size: 24px;
@@ -173,6 +177,7 @@ body {
 }
 
 .bbutton {
+  background-color: #862892;
   text-align:center;
   margin: 0 0 0 0px;
 }
