@@ -152,6 +152,9 @@ body {
 #answers {
   margin-bottom: 150px;
 }
+#answer {
+  position: rela  x1tive;
+}
 
 .two {
   background-color: #49E83E;
@@ -187,7 +190,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position:60%, 90%;
-  opacity: 0.55;
+  opacity: 0.5;
 }
 
 .five {
@@ -227,22 +230,22 @@ white-space:nowrap;
 }
 
 .slideincome {
-  margin: -275px 0 0 -700px;
+  margin: -225px 0 0 -650px;
 }
 .slidefood {
-  margin: -40px 0 0 -700px;
+  margin: -50px 0 0 -650px;
 }
 .slidealcohol{
-  margin: -40px 0 0 -700px;
+  margin: -50px 0 0 -650px;
 }
 .slidehouse {
-  margin: -40px 0 0 -700px;
+  margin: -40px 0 0 -650px;
 }
 .slidetransport {
-  margin: -40px 0 0 -700px;
+  margin: -30px 0 0 -650px;
 }
 .slidehealthcare {
-  margin: -40px 0 0 -700px;
+  margin: -30px 0 0 -650px;
 }
 
 /* Mouse-over effects */
@@ -288,7 +291,7 @@ white-space:nowrap;
 /* The container must be positioned relative: */
 .custom-select {
   position: relative;
-  margin: -580px 180px 0 -400px;
+  margin: -520px 180px 0 -350px;
   font-family: Arial;
   font-size: 28px;
 }
@@ -337,3 +340,15 @@ white-space:nowrap;
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
 } 
+
+.p4{
+  font-size:24px;
+  float:left;
+  margin:-315px 0 0 -650px;
+  width:630px;
+  height:720px;
+  padding: 30px 10px;
+  /* background-color: black; */
+  /* border: 1px solid black; */
+  text-align: center;
+}
