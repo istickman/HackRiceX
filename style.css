@@ -148,7 +148,11 @@ h1 {
   }
   
   .four {
-  background-color: #E84B30;
+  background-image: url("https://media.gcflearnfree.org/content/55e06a511496fdb039ceef59_01_17_2014/CreatingABudget_Intro1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 105% 1550px;
+  opacity: 0.5;
   }
   
   .five {
@@ -240,8 +244,10 @@ h1 {
   
    /* The container must be positioned relative: */
    .custom-select {
-      position: relative;
+      position: fixed;
+      margin: -600px 0 0 -200px;
       font-family: Arial;
+      font-size: 15px;
     }
     
     .custom-select select {
@@ -249,7 +255,7 @@ h1 {
     }
     
     .select-selected {
-      background-color: DodgerBlue;
+      background-color: black;
     }
     
     /* Style the arrow inside the select element: */
