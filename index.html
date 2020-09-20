@@ -46,9 +46,10 @@
                 <div class="box bbutton"><div>
                     <div id="btn_group">
                         <h2 id="category1">
-                            <button_group v-on:click="gender(1)">Male</button_group> vs.
-                            <button_group v-on:click="gender(2)">Female</button_group>
+                            <button_group v-on:click="gender(1); poverty('Male')">Male</button_group> vs.
+                            <button_group v-on:click="gender(2); poverty('Female')">Female</button_group>
                             {{genderv}}
+                            {{valv}}
                         </h2>
             
                         <h2 id="category2">

@@ -6,7 +6,8 @@ new Vue({
         agev: 0,
         nativityv: 0,
         regionv: 0,
-        residencev: 0
+        residencev: 0,
+        valv: [0, 0]
 
     },
     methods: {
@@ -32,6 +33,37 @@ new Vue({
         
         residence: function(val) {
             this.residencev = val
+        },
+
+        poverty: function(val) {
+            var povertyv = {
+                "Female":[34.612,11.5],
+                "Male":[48.496,9.4],
+                "White":[72.204,9.1],
+                "White, not Hispanic":[76.057,7.3],
+                "Black":[45.438,18.8],
+                "Asian":[98.174,7.3],
+                "Hispanic (any race)":[56.113,15.7],
+                "Under 65 years":[77.873,9.4],
+                "15 to 24 years":[47.934,14.4],
+                "25 to 34 years":[70.283,9.4],
+                "35 to 44 years":[88.858,9.4],
+                "45 to 54 years":[92.221,9.4],
+                "55 to 64 years":[75.686,9.4],
+                "65 years and older":[47.357,8.9],
+                "Native-born":[69.474,10.1],
+                "Foreign-born":[64.900,12.6],
+                "Naturalized citizen":[71.538,9],
+                "Not a citizen":[57.668,16.3],
+                "Northeast":[76.221,9.4],
+                "Midwest":[68.354,9.7],
+                "South":[61.884,12],
+                "West":[75.769,9.5],
+                "Inside metropolitan statistical areas":[71.961,10],
+                "Inside principal cities":[63.745,13.1],
+                "Outside principal cities":[77.170,8.2],
+                "Outside metropolitan statistical areas":[52.100,13.3]}
+        this.valv = povertyv[val]
         }
     }
     
@@ -80,7 +112,8 @@ function poverty(type){
             "Inside principal cities":[63.745,13.1],
             "Outside principal cities":[77.170,8.2],
             "Outside metropolitan statistical areas":[52.100,13.3]};
-    return [poverty.type[1], poverty.type[2]];
+    valv[1] = poverty.type[1];
+    valv[2] = poverty.type[2];
 }
 
 var slider = document.getElementById("myRange");
