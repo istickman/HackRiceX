@@ -46,50 +46,51 @@
                 <div class="box bbutton"><div>
                     <div id="btn_group">
                         <h2 id="category1">
-                            <button_group v-on:click="gender(1)">Male</button_group> vs.
-                            <button_group v-on:click="gender(2)">Female</button_group>
+                            <button_group v-on:click="gender(1); poverty('Male')">Male</button_group> vs.
+                            <button_group v-on:click="gender(2); poverty('Female')">Female</button_group>
                             {{genderv}}
                         </h2>
             
                         <h2 id="category2">
-                            <button_group v-on:click="race(1)">White</button_group> vs.
-                            <button_group v-on:click="race(2)">Black</button_group> vs.
-                            <button_group v-on:click="race(3)">Asian</button_group> vs.
-                            <button_group v-on:click="race(4)">Hispanic</button_group>
+                            <button_group v-on:click="race(1); poverty('White')">White</button_group> vs.
+                            <button_group v-on:click="race(2); poverty('Black')">Black</button_group> vs.
+                            <button_group v-on:click="race(3); poverty('Asian')">Asian</button_group> vs.
+                            <button_group v-on:click="race(4); poverty('Hispanic')">Hispanic</button_group>
                             {{racev}}
                         </h2>
             
                         <h2 id="category3">
-                            <button_group v-on:click="age(1)">15 to 24</button_group> vs.
-                            <button_group v-on:click="age(2)">25 to 34</button_group> vs.
-                            <button_group v-on:click="age(3)">35 to 44</button_group> vs.
-                            <button_group v-on:click="age(4)">45 to 54</button_group> vs.
-                            <button_group v-on:click="age(5)">55 to 64</button_group> vs.
-                            <button_group v-on:click="age(6)">65+</button_group>
+                            <button_group v-on:click="age(1); poverty('15 to 24')">15 to 24</button_group> vs.
+                            <button_group v-on:click="age(2); poverty('25 to 34')">25 to 34</button_group> vs.
+                            <button_group v-on:click="age(3); poverty('35 to 44')">35 to 44</button_group> vs.
+                            <button_group v-on:click="age(4); poverty('45 to 54')">45 to 54</button_group> vs.
+                            <button_group v-on:click="age(5); poverty('55 to 64')">55 to 64</button_group> vs.
+                            <button_group v-on:click="age(6); poverty('65+')">65+</button_group>
                             {{agev}}
                         </h2>
             
                         <h2 id="category4">
-                            <button_group v-on:click="nativity(1)">Native-born</button_group> vs.
-                            <button_group v-on:click="nativity(2)">Naturalized citizen</button_group> vs.
-                            <button_group v-on:click="nativity(3)">Not a citizen</button_group>
+                            <button_group v-on:click="nativity(1); poverty('Native-born')">Native-born</button_group> vs.
+                            <button_group v-on:click="nativity(2); poverty('Naturalized citizen')">Naturalized citizen</button_group> vs.
+                            <button_group v-on:click="nativity(3); poverty('Not a citizen')">Not a citizen</button_group>
                             {{nativityv}}
                         </h2>
             
                         <h2 id="category5">
-                            <button_group v-on:click="region(1)">Northeast</button_group> vs.
-                            <button_group v-on:click="region(2)">Midwest</button_group> vs.
-                            <button_group v-on:click="region(3)">South</button_group> vs.
-                            <button_group v-on:click="region(4)">West</button_group>
+                            <button_group v-on:click="region(1); poverty('Northeast')">Northeast</button_group> vs.
+                            <button_group v-on:click="region(2); poverty('Midwest')">Midwest</button_group> vs.
+                            <button_group v-on:click="region(3); poverty('South')">South</button_group> vs.
+                            <button_group v-on:click="region(4); poverty('West')">West</button_group>
                             {{regionv}}
                         </h2>
                         
                         <h2 id="category6">
-                            <button_group v-on:click="residence(1)">Inside principal cities</button_group> vs.
-                            <button_group v-on:click="residence(2)">Outside principal cities</button_group> vs.
-                            <button_group v-on:click="residence(3)">Outside metropolitan statistical areas</button_group>
+                            <button_group v-on:click="residence(1); poverty('Inside principal cities')">Inside principal cities</button_group> vs.
+                            <button_group v-on:click="residence(2); poverty('Outside principal cities')">Outside principal cities</button_group> vs.
+                            <button_group v-on:click="residence(3); poverty('Outside metropolitan statistical areas')">Outside metropolitan statistical areas</button_group>
                             {{residencev}}
                         </h2>
+                        <h2 id="nums">Median Income: <span style="color: green">${{valv[0]}}</span> and Poverty Rate <span style="color: red">{{valv[1]}}%</span></h2>
             
                     </div>
                 </div></div>
