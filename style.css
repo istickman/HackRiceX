@@ -38,7 +38,7 @@ button_group:hover {
 
 #category1 {
   font-size: 24px;
-  margin: -150px 0 0 -150px;
+  margin: -200px 0 0 -150px;
 }
 #category2 {
   font-size: 24px;
@@ -59,6 +59,10 @@ button_group:hover {
 #category6 {
   font-size: 24px;
   margin: 50px 0 0 -600px;
+}
+#nums {
+  font-size:36px;
+  margin: 50px 0 0 -125px;
 }
 
 body {
