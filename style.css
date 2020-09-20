@@ -20,7 +20,7 @@ button_group {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 24px;
   margin: 4px 10px;
   cursor: pointer;
   /* float: left; */
@@ -37,8 +37,28 @@ button_group:hover {
 }
 
 #category1 {
-  font-size: 16px;
-  margin: 0 0 0 0px;
+  font-size: 24px;
+  margin: -150px 0 0 -150px;
+}
+#category2 {
+  font-size: 24px;
+  margin: 50px 0 0 -325px;
+}
+#category3 {
+  font-size: 24px;
+  margin: 50px 0 0 -525px;
+}
+#category4 {
+  font-size: 24px;
+  margin: 50px 0 0 -375px;
+}
+#category5 {
+  font-size: 24px;
+  margin: 50px 0 0 -375px;
+}
+#category6 {
+  font-size: 24px;
+  margin: 50px 0 0 -600px;
 }
 
 body {
@@ -156,7 +176,7 @@ body {
 .four {
 background-image: url("https://media.gcflearnfree.org/content/55e06a511496fdb039ceef59_01_17_2014/CreatingABudget_Intro1.png");
 background-repeat: no-repeat;
-background-attachment: fixed;
+/* background-attachment: fixed; */
 background-size: 100%;
 opacity: 0.75;
 }

@@ -26,6 +26,10 @@ new Vue({
             this.nativityv = val
         },
         
+        region: function(val) {
+            this.regionv = val
+        },
+        
         residence: function(val) {
             this.residencev = val
         }
