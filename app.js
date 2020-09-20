@@ -106,6 +106,14 @@ output3.innerHTML = slider3.value;
 var slider4 = document.getElementById("myRange4");
 var output4 = document.getElementById("demo4");
 output4.innerHTML = slider4.value;
+
+var slider5 = document.getElementById("myRange5");
+var output5 = document.getElementById("demo5");
+output5.innerHTML = slider5.value;
+
+var slider6 = document.getElementById("myRange6");
+var output6 = document.getElementById("demo6");
+output6.innerHTML = slider6.value;
 // Update the current slider value (each time you drag the slider handle)
 slider2.oninput = function() {
   output2.innerHTML = this.value;
@@ -115,6 +123,12 @@ slider3.oninput = function() {
 } 
 slider4.oninput = function() {
     output4.innerHTML = this.value;
+} 
+slider5.oninput = function() {
+    output5.innerHTML = this.value;
+} 
+slider6.oninput = function() {
+    output6.innerHTML = this.value;
 } 
 
 var x, i, j, l, ll, selElmnt, a, b, c;
